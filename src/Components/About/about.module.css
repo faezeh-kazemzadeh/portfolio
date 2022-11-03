@@ -1,0 +1,31 @@
+.about{
+    padding: 3rem;
+    font-size: 20px;
+    color: var(--primarry-white);
+    line-height: 30px;
+}
+.about header{
+    font-size: 24px;
+    color: var(--primarry-blue);
+    width: 10vw;
+    margin-bottom: 2rem;
+}
+.about header span{
+    color: var(--primarry-green);
+    font-weight: 700;
+    font-size: 32px;
+}
+.about img:not(.social){
+    border: 3px solid var(--primarry-green);
+    border-radius: 50%;
+}
+.about ul{
+    list-style: none;
+    width: 15vw;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.imageSection{
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+hr{
+    border: 1px solid;
+    height: 5px;
+    background: linear-gradient(270deg, rgba(14, 230, 183, 0) 0.97%, #0EE6B7 48.68%, rgba(14, 230, 183, 0) 99.47%);
+}

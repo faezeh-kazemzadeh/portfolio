@@ -1,0 +1,23 @@
+.works header{
+    color: var(--primarry-green);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+.works{
+    padding: 8rem;
+}
+.even{
+    flex-direction: row-reverse;
+}
+.detailesSection header{
+    font-size: 24px;
+    font-weight: 700;
+}
+.works .buttonLink{
+    padding: 1rem 4rem;
+    color: var(--primarry-blue);
+    text-decoration: none;
+    border: 1px solid var(--primarry-blue);
+    border-radius: 3rem;
+}

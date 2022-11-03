@@ -1,0 +1,34 @@
+
+ .services{
+    padding: 3rem 1rem;
+}
+.services header{
+    color: var(--primarry-blue);
+    font-size: 22px;
+    width: 200px;
+}
+.services header span{
+    color: var(--primarry-green);
+    font-size: 32px;
+    font-weight: 800;
+}
+img{
+    width: 100%;
+    filter: var(--primarry-shadow);
+}
+
+.develop{
+    margin-top: 2rem;
+}
+.design img{
+    margin-top: 3rem;
+}
+@media only screen and (min-width : 768px) {
+    .develop{
+        translate: -70px;
+    }  
+    .services{
+        padding: 8rem;
+        min-height: 90vh;
+    }
+  }

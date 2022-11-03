@@ -1,0 +1,20 @@
+.skills{
+    padding: 3rem 1rem;
+}
+.skills header{
+    color: var(--primarry-green);
+    font-size: 32px;
+    font-weight: 800;
+}
+.skills p{
+    color: var(--primarry-blue);
+    font-size: 20px;
+}
+
+@media only screen and (min-width : 768px) {
+   
+    .skills{
+        padding: 8rem;
+        min-height: 90vh;
+    }
+  }
