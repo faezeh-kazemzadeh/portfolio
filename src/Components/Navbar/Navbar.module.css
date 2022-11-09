@@ -6,6 +6,9 @@ nav{
     height: 5rem;
 } 
 
+.navbar{
+    background: transparent;
+}
 nav, nav a , .navLink{
     color: #fff;
     font-weight: 700;
@@ -35,6 +38,10 @@ nav :not(.brand) a{
 } */
 
 @media screen and (max-width : 575px) {
+    .navbar .navbar-toggler-icon{
+        color: var(--white);
+        filter: invert(1);
+    }
     .brand{
       font-size: 20px;
     }    

@@ -5,7 +5,7 @@ import { Container ,Nav , Navbar as Navboot, NavDropdown} from 'react-bootstrap'
 import styles from './Navbar.module.css';
 const Navbar = () => {
     return (
-    <Navboot bg="tranparent" expand="lg" fixed="top" className='navbar' >
+    <Navboot  expand="lg" fixed="top" className={styles.navbar} >
     <Container>
       <Navboot.Brand href="#home" className={styles.brand}>  <span>&#60;</span> Faezeh Kazemzadeh <span>&#47; &#62;</span></Navboot.Brand>
       <Navboot.Toggle aria-controls="basic-navbar-nav" />
